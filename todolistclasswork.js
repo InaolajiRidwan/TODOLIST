@@ -9,8 +9,7 @@ function addup() {
     var paragraph = document.createElement('li');
 
         
-    // concatenating the input and add button
-    // var paragraph = document.createElement('h1');
+   
     paragraph.innerHTML = display.value;
     todoCon.appendChild(paragraph);
 
